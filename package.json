@@ -1,0 +1,33 @@
+{
+  "name": "zadanie_15_6",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.js --watch --out-file script-compiled.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "http-server": "^0.11.1",
+    "jshint": "^2.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flammea/zadanie_15_7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flammea/zadanie_15_7/issues"
+  },
+  "homepage": "https://github.com/flammea/zadanie_15_7#readme",
+  "description": ""
+}

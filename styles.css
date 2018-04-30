@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+
+}
+
+.stoper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  margin: 10vh auto 0 auto;
+  font-size: 2rem;
+}
+
+h1 {
+  color: #26de81;
+  margin: 20px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#start, #stop, #resetbtn, #add, #reset_list {
+  display: inline-block;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 10px auto;
+}
+
+#start {
+  background-color: #00b894;
+}
+
+#stop {
+  background-color: #d63031;
+}
+
+#resetbtn {
+  background-color: #636e72;
+}
+
+#add, #reset_list {
+  background-color: #FFFFFF;
+  border: 2px #00b894 solid;
+  color: #636e72;
+  font-size: 20px;
+  width: 200px;
+}
+
+.stopwatch {
+  color: #26de81;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 60px;
+}
+
+.results {
+  font-size: 30px;
+  align-self: flex-start;
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin: 10px auto;
+  color: #636e72;
+  padding: 0;
+}
+
+
+
